@@ -1,0 +1,103 @@
+/* my login page styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f0fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  padding: 40px 35px;
+  border-radius: 10px;
+  width: 380px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #1d3557;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+.field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.field input:focus {
+  border-color: #1d7adb;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 11px;
+  background-color: #1d7adb;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-btn:hover {
+  background-color: #1562b5;
+}
+
+.fp-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.fp-link a {
+  color: #1d7adb;
+  text-decoration: none;
+}
+
+.fp-link a:hover {
+  text-decoration: underline;
+}
